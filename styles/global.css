@@ -20,9 +20,15 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+address {
   margin: 0;
   padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
 }
 
 a {
@@ -35,4 +41,23 @@ img {
 
 button {
   font: inherit;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+
+}
+
+.lots {
+  margin: 180px 24px 120px 24px;
+}
+
+.abaut {
+  margin: 0 24px 180px 24px;
+}
+
+.footer {
+  padding-left: 51.1px;
+  padding-right: 50px;
 }
