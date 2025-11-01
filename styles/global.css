@@ -43,11 +43,6 @@ button {
   font: inherit;
 }
 
-.cover {
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-}
-
 .lots {
   margin: 180px 24px 120px 24px;
 }
